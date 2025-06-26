@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Link } from 'react-router-dom';
 import './Home.css'; // Make sure to include this CSS file
 
@@ -8,9 +6,12 @@ const Home = () => {
     <div className="content">
       <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
         <div className="hero-section">
-          
+          <img src="public/images/vck.jpg"
+           alt="" 
+           className="hero-banner-image"
+           />
           <div className="hero-overlay-text ">
-            <h1 style={{color:'white'}} className='animate-fade-in-up'>Welcome to Vivekanand College!</h1>
+            <h1 style={{color:'white'}} className=''>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
             <Link className="btn bg-success hero-btn" to="/admissions" data-discover="true">
               Apply Now!
@@ -43,8 +44,8 @@ const Home = () => {
 
         <h2>Campus Life & Facilities</h2>
         <div className="image-gallery">
-          <img alt="Students studying in library" src="https://vck-ojt.vercel.app/assets/students-studying-DbLGuwF_.jpeg" />
-          <img alt="Students on campus ground" src="https://vck-ojt.vercel.app/assets/campus-life-Crkero7B.jpg" />
+          <img alt="Students studying in library" src="public/images/vck1.jpg" />
+          <img alt="Students on campus ground" src="public/images/college.jpg" />
         </div>
 
         <p>
