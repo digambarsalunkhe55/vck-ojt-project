@@ -6,7 +6,7 @@ const Home = () => {
     <div className="content">
       <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
         <div className="hero-section">
-          <img src="public/images/vck.jpg"
+          <img src="/images/vck.jpg"
            alt="" 
            className="hero-banner-image"
            />
@@ -44,8 +44,8 @@ const Home = () => {
 
         <h2>Campus Life & Facilities</h2>
         <div className="image-gallery">
-          <img alt="Students studying in library" src="public/images/vck1.jpg" />
-          <img alt="Students on campus ground" src="public/images/college.jpg" />
+          <img alt="Students studying in library" src="/images/vck1.jpg" />
+          <img alt="Students on campus ground" src="/images/college.jpg" />
         </div>
 
         <p>
