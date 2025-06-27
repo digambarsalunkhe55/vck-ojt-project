@@ -25,7 +25,7 @@ function App() {
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
-          studentName="Digambar Satish Salunkhe"
+          studentName="Digambar Salunkhe"
           studentPhotoUrl="/images/digambar s.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
